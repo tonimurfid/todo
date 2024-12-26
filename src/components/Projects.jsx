@@ -1,21 +1,36 @@
 import React from 'react';
 
 const projects = [
-  {
-    title: 'E-Commerce Website',
-    role: 'Frontend Developer',
-    description: 'A fully responsive e-commerce website with modern UI/UX.',
-    month: 'July 2024',
-    link: 'https://github.com',
-  },
-  {
-    title: 'AI Research Project',
-    role: 'AI Researcher',
-    description: 'Exploring synthetic data generation using generative models.',
-    month: 'September 2024',
-    link: 'https://github.com',
-  },
-];
+    {
+      title: 'Google Stock Prediction',
+      role: 'Data Scientist',
+      description: 'Developed a Recurrent Neural Network to predict Google stock prices.',
+      month: 'August 2024',
+      link: 'https://github.com/tonimurfid/Google_Stock_Prediction',
+    },
+    {
+      title: 'ASR_Arten',
+      role: 'Machine Learning Engineer',
+      description: 'Worked on Automatic Speech Recognition using deep learning techniques.',
+      month: 'June 2024',
+      link: 'https://github.com/tonimurfid/ASR_Arten',
+    },
+    {
+      title: 'CNN_RockPaperScissor',
+      role: 'AI Developer',
+      description: 'Implemented a Convolutional Neural Network to play Rock-Paper-Scissors.',
+      month: 'May 2024',
+      link: 'https://github.com/tonimurfid/CNN_RockPaperScissor',
+    },
+    {
+      title: 'DungeonMon',
+      role: 'Game Developer',
+      description: 'Created a Java-based dungeon game with monster battles.',
+      month: 'April 2024',
+      link: 'https://github.com/tonimurfid/DungeonMon',
+    },
+  ];
+  
 
 export const Projects = () => {
   return (

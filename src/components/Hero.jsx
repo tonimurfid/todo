@@ -12,9 +12,9 @@ export const Hero = () => {
         "Debugging is like being the detective in a crime movie where you are also the murderer."
       </p>
       <p className="mt-4 text-gray-400 max-w-md">
-        Saya adalah seorang mahasiswa ilmu komputer dengan ketertarikan dalam bidang Artificial
-        Intelligence, khususnya Computer Vision. Saya sedang mengembangkan kemampuan saya untuk
-        menjadi AI Engineer yang dapat menyelesaikan permasalahan dunia nyata.
+      I am a computer science student with a strong interest in Artificial Intelligence. 
+      I am currently exploring Large Language Models (LLMs), Computer Vision, and their applications. 
+      My goal is to become an AI Engineer capable of leveraging AI to solve real-world problems.
       </p>
       <div className="flex space-x-6 mt-6">
         <a href="https://github.com/tonimurfid" target="_blank" rel="noreferrer">

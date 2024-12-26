@@ -11,7 +11,7 @@ const education = [
     degree: 'Science High School',
     institution: 'SMA Negeri 2 Kota Madiun',
     duration: 'Aug 2021 - May 2023',
-    description: 'Finalist in Cyber Security and IoT Olympiad, and 3rd place in Photography competition.',
+    description: 'Focus on Natural Science.',
   },
 ];
 
