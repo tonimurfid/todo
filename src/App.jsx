@@ -1,15 +1,16 @@
-import React from 'react'
-import { Navbar } from './components/Navbar'
-import { Hero } from './components/Hero'
+import React from 'react';
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero';
 
-export const App = () => {
+const App = () => {
   return (
     <>
-    <Navbar />
-    <Hero />
-    <h1 className='text-center mt-5'>
-      Hello, World! anjay
-    </h1>
+      <Navbar />
+      <Hero />
+      <h1 className='text-center mt-5'>Hello, World! anjay</h1>
     </>
-  )
-}
+  );
+};
+
+// Default export
+export default App;
