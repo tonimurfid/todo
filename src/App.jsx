@@ -8,7 +8,7 @@ export const App = () => {
     <Navbar />
     <Hero />
     <h1 className='text-center mt-5'>
-      Hello, World!
+      Hello, World! anjay
     </h1>
     </>
   )
