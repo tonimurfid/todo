@@ -1,4 +1,7 @@
 import React from 'react';
+import CV from '../assets/FatoniMurfidSyaafii_CV.pdf';
+
+
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 export const Hero = () => {
@@ -28,8 +31,8 @@ export const Hero = () => {
         </a>
       </div>
       <a
-        href="/assets/FatoniMurfidSyaafii_CV" // Path ke file CV Anda
-        download="Fatoni_Murfi_Syaafii_CV.pdf" // Nama file saat diunduh
+        href={CV}
+        download="Fatoni_Murfi_Syaafii_CV.pdf"
         className="mt-8 px-6 py-3 bg-pink-500 text-white font-bold rounded shadow-lg hover:bg-pink-400 transition"
       >
         Download CV
