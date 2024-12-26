@@ -14,13 +14,13 @@ export const Hero = () => {
         menjadi AI Engineer yang dapat menyelesaikan permasalahan dunia nyata.
       </p>
       <div className="flex space-x-6 mt-6">
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/tonimurfid" target="_blank" rel="noreferrer">
           <FaGithub className="text-2xl hover:text-pink-400" />
         </a>
         <a href="https://linkedin.com/in/fatoni-murfid-syaafii" target="_blank" rel="noreferrer">
           <FaLinkedin className="text-2xl hover:text-pink-400" />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/tonimurf_/" target="_blank" rel="noreferrer">
           <FaInstagram className="text-2xl hover:text-pink-400" />
         </a>
         <a href="mailto:fatonimurfids@gmail.com">
