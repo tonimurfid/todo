@@ -27,6 +27,13 @@ export const Hero = () => {
           <FaEnvelope className="text-2xl hover:text-pink-400" />
         </a>
       </div>
+      <a
+        href="/assets/FatoniMurfidSyaafii_CV" // Path ke file CV Anda
+        download="Fatoni_Murfi_Syaafii_CV.pdf" // Nama file saat diunduh
+        className="mt-8 px-6 py-3 bg-pink-500 text-white font-bold rounded shadow-lg hover:bg-pink-400 transition"
+      >
+        Download CV
+      </a>
     </section>
   );
 };
