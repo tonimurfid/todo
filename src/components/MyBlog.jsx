@@ -46,33 +46,28 @@ export const MyBlog = () => {
   };
 
   return (
-    <section id="myblog" className="py-16 bg-dracula-background">
-      <h2 className="text-4xl text-center font-bold text-dracula-function mb-8">My Story</h2>
-      <div className="max-w-4xl mx-auto">
-        {/* Scrollable container */}
+    <section id="myblog" className="py-8 sm:py-16 bg-dracula-background">
+      <h2 className="text-2xl sm:text-4xl text-center font-bold text-dracula-function mb-4 sm:mb-8">My Story</h2>
+      <div className="max-w-screen-sm sm:max-w-4xl mx-auto">
         <div
-          className="overflow-y-scroll bg-dracula-highlight p-4 rounded-lg shadow-lg"
-          style={{ maxHeight: '50rem' }}
+          className="overflow-y-scroll bg-dracula-highlight p-4 sm:p-6 rounded-lg shadow-lg"
+          style={{ maxHeight: '30rem' }}
         >
           {stories.map((story) => (
-            <div
-              key={story.id}
-              className="mb-6 border-b border-dracula-background pb-4 last:border-b-0"
-            >
-              {/* Render semua gambar */}
-              <div className="flex gap-4 mb-3 overflow-x-auto">
+            <div key={story.id} className="mb-4 sm:mb-6 border-b border-dracula-background pb-2 sm:pb-4 last:border-b-0">
+              <div className="flex gap-2 sm:gap-4 mb-2 sm:mb-3 overflow-x-auto">
                 {story.images.map((image, index) => (
                   <img
                     key={index}
                     src={image}
                     alt={`${story.title} - ${index + 1}`}
-                    className="w-1/3 max-h-40 object-contain rounded-lg"
+                    className="w-1/3 max-h-24 sm:max-h-40 object-contain rounded-lg"
                   />
                 ))}
               </div>
-              <h3 className="text-2xl font-bold text-dracula-text">{story.title}</h3>
-              <p className="text-sm text-dracula-number mb-2">{story.date}</p>
-              <p className="text-dracula-string mb-2">{story.description}</p>
+              <h3 className="text-lg sm:text-2xl font-bold text-dracula-text">{story.title}</h3>
+              <p className="text-xs sm:text-sm text-dracula-number mb-1 sm:mb-2">{story.date}</p>
+              <p className="text-sm sm:text-base text-dracula-string mb-1 sm:mb-2">{story.description}</p>
               {story.link && (
                 <a
                   href={story.link}
@@ -88,5 +83,6 @@ export const MyBlog = () => {
         </div>
       </div>
     </section>
+
   );
 };

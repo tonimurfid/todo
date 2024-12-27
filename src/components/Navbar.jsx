@@ -4,11 +4,16 @@ import { Link } from 'react-scroll';
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Fungsi untuk menutup menu setelah link diklik
+  const handleLinkClick = () => setIsOpen(false);
+
   return (
     <nav className="fixed top-0 w-full bg-dracula-background shadow-lg z-50">
       <div className="container mx-auto p-4 flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-xl font-bold typing-effect">
+        <h1
+          className="font-bold typing-effect text-sm md:text-lg lg:text-xl" /* Ukuran berubah sesuai layar */
+        >
           <span className="text-dracula-keyword">from </span>
           <span className="text-white toni">toni </span>
           <span className="text-dracula-keyword">import </span>
@@ -48,6 +53,7 @@ export const Navbar = () => {
                 to={section}
                 smooth={true}
                 duration={500}
+                onClick={handleLinkClick} // Menutup menu setelah link diklik
                 className="block py-2 md:py-0 text-dracula-text hover:text-dracula-string"
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}

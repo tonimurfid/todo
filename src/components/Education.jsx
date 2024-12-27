@@ -17,18 +17,20 @@ const education = [
 
 export const Education = () => {
   return (
-    <section id="education" className="py-16 bg-dracula-background">
-      <h2 className="text-4xl text-center font-bold text-dracula-function mb-8">Education</h2>
-      <div className="max-w-4xl mx-auto">
+    <section id="education" className="py-8 sm:py-16 bg-dracula-background">
+      <h2 className="text-2xl sm:text-4xl text-center font-bold text-dracula-function mb-4 sm:mb-8">
+        Education
+      </h2>
+      <div className="relative max-w-screen-sm sm:max-w-4xl mx-auto">
         <div className="border-l-2 border-dracula-highlight relative">
           {education.map((edu, index) => (
-            <div key={index} className="mb-8 pl-10 relative">
+            <div key={index} className="mb-6 sm:mb-8 pl-6 sm:pl-10 relative">
               {/* Bulatan Pink */}
               <div className="absolute -left-3 w-6 h-6 bg-pink-500 rounded-full"></div>
-              <h3 className="text-xl font-bold text-dracula-text">{edu.degree}</h3>
-              <p className="text-dracula-comment">{edu.institution}</p>
-              <p className="text-sm text-dracula-number">{edu.duration}</p>
-              <p className="text-dracula-string">{edu.description}</p>
+              <h3 className="text-lg sm:text-xl font-bold text-dracula-text">{edu.degree}</h3>
+              <p className="text-sm sm:text-base text-dracula-comment">{edu.institution}</p>
+              <p className="text-xs sm:text-sm text-dracula-number">{edu.duration}</p>
+              <p className="text-sm sm:text-base text-dracula-string">{edu.description}</p>
             </div>
           ))}
         </div>

@@ -59,21 +59,22 @@ export const Journey = () => {
   ];
 
   return (
-    <section id="journey" className="py-16 bg-gray-900">
-      <h2 className="text-4xl text-center font-bold text-pink-500 mb-8">Journey</h2>
-      <div className="max-w-4xl mx-auto">
+    <section id="journey" className="py-8 sm:py-16 bg-gray-900">
+      <h2 className="text-2xl sm:text-4xl text-center font-bold text-pink-500 mb-4 sm:mb-8">Journey</h2>
+      <div className="max-w-screen-sm sm:max-w-4xl mx-auto">
         <div className="border-l-2 border-gray-700">
           {experiences.map((exp, index) => (
-            <div key={index} className="mb-8 ml-6 relative">
-              <div className="absolute -left-9 w-6 h-6 bg-pink-500 rounded-full"></div>
-              <h3 className="text-xl font-bold">{exp.title}</h3>
-              <p className="text-gray-400">{exp.organization}</p>
-              <p className="text-sm text-gray-500">{exp.duration}</p>
-              <p className="text-gray-300">{exp.description}</p>
+            <div key={index} className="mb-6 sm:mb-8 pl-6 sm:pl-10 relative">
+              <div className="absolute -left-3 w-6 h-6 bg-pink-500 rounded-full"></div>
+              <h3 className="text-lg sm:text-xl font-bold">{exp.title}</h3>
+              <p className="text-sm sm:text-base text-gray-400">{exp.organization}</p>
+              <p className="text-xs sm:text-sm text-gray-500">{exp.duration}</p>
+              <p className="text-sm sm:text-base text-gray-300">{exp.description}</p>
             </div>
           ))}
         </div>
       </div>
     </section>
+
   );
 };
