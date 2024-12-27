@@ -6,12 +6,11 @@ export const Navbar = () => {
 
   return (
     <nav className="fixed top-0 w-full bg-dracula-background shadow-lg z-50">
-      <div className="container mx-auto p-4 flex justify-between items-center">
+      <div className="w-full p-4 flex justify-between items-center">
         {/* Logo */}
         <h1
-          className="font-bold typing-effect 
-          text-left text-sm md:text-lg lg:text-xl" /* Responsif */
-          style={{ paddingLeft: '1rem' }} /* Tambah padding kiri untuk memepetkan */
+          className="font-bold typing-effect text-left text-sm md:text-lg lg:text-xl pl-0 ml-0"
+          style={{ marginLeft: '0', paddingLeft: '0' }} // Tambahan gaya inline
         >
           <span className="text-dracula-keyword">from </span>
           <span className="text-white toni">toni </span>
