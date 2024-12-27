@@ -11,22 +11,19 @@
 }
 
 @keyframes typing {
-    0% {
-      width: 0; /* Awal animasi (tidak ada teks terlihat) */
-    }
-    50% {
-      width: 26ch; /* Panjang teks "from toni import portfolio" */
-    }
-    60% {
-      width: 26ch; /* Panjang teks "from toni import portfolio" */
-    }
-    70% {
-      width: 26ch; /* Tetap pada panjang maksimal untuk sementara */
-    }
-    100% {
-      width: 0; /* Animasi reverse kembali ke awal */
-    }
+  0% {
+    width: 0; /* Awal animasi (tidak ada teks terlihat) */
   }
+  50% {
+    width: 26ch; /* Panjang teks "from toni import portfolio" */
+  }
+  80% { /* Perpanjang durasi saat mentok */
+    width: 26ch; /* Tetap pada panjang maksimal untuk sementara */
+  }
+  100% {
+    width: 0; /* Animasi reverse kembali ke awal */
+  }
+}
   
 
 @keyframes blink-caret {
