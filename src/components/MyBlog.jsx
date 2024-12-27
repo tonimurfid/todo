@@ -6,22 +6,24 @@ export const MyBlog = () => {
     {
       id: 1,
       images: [
-        '/assets/tes.png',
-        'https://loremflickr.com/200/200?random=2',
-        'https://loremflickr.com/200/200?random=3',
+        '/assets/gemastik1.jpeg',
+        '/assets/gemastik2.jpeg',
+        '/assets/gemastik3.jpeg',
+        '/assets/gemastik4.jpeg',
+        '/assets/gemastik5.jpeg',
       ],
-      title: 'My First AI Project',
-      date: 'December 15, 2024',
-      description: 'This is my journey building my first AI model to classify images.',
-      link: 'https://github.com/example',
-    },
+      title: 'GEMASTIK XVII Data Mining Finals',
+      date: 'September 30, 2024',
+      description: 'As a freshman diving into data science, I competed in GEMASTIK XVII 2024, one of Indonesia\'s largest ICT competitions. I worked as an ML engineer in my team, learning valuable lessons and gaining experience in model experimentation and presentation. Though we didn’t win, the journey fueled my passion for ML/AI engineering, and I\'m excited to continue growing in this field. Stay tuned for upcoming projects!',
+      link: 'https://www.linkedin.com/posts/fatoni-murfid-syaafii_gemastikxvii-datamining-machinelearning-activity-7247554929253367808-eyb9?utm_source=combined_share_message&utm_medium=member_desktop_web'
+    },    
     {
       id: 2,
       images: [
         'https://loremflickr.com/200/200?random=4',
         'https://loremflickr.com/200/200?random=5',
       ],
-      title: 'My Thoughts on Open Source',
+      title: 'Dummy',
       date: 'November 20, 2024',
       description: 'Sharing my experiences contributing to open source projects.',
       link: '',

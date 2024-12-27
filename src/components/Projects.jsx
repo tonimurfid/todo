@@ -2,18 +2,32 @@ import React from 'react';
 
 const projects = [
   {
+    title: 'ASR_Arten',
+    role: 'Machine Learning Engineer',
+    description: 'Worked on Automatic Speech Recognition using pre-trained models whisper-ai and used the transcribed text to be translated into Indonesia using DeepL.',
+    month: 'June 2024',
+    link: 'https://github.com/tonimurfid/ASR_Arten',
+  },
+  {
+    title: 'Career Path AI',
+    role: 'Machine Learning Engineer',
+    description: 'Developed an AI system to suggest a job and could give score based on the resume.',
+    month: 'October 2024',
+    link: 'https://github.com/tonimurfid/Laplace_CareerPath',
+  },
+  {
+    title: 'Sentiment Analysis Tweet Election 2024',
+    role: 'Data Scientist',
+    description: 'Developed a machine learning model that can predict the sentiment of tweets (positive or negative) regarding the 2024 General Election in Indonesia.',
+    month: 'February 2024',
+    link: 'https://github.com/ghazafm/twitter-sentiment-analysis',
+  },
+  {
     title: 'Google Stock Prediction',
     role: 'Data Scientist',
     description: 'Developed a Recurrent Neural Network to predict Google stock prices.',
     month: 'August 2024',
     link: 'https://github.com/tonimurfid/Google_Stock_Prediction',
-  },
-  {
-    title: 'ASR_Arten',
-    role: 'Machine Learning Engineer',
-    description: 'Worked on Automatic Speech Recognition using deep learning techniques.',
-    month: 'June 2024',
-    link: 'https://github.com/tonimurfid/ASR_Arten',
   },
   {
     title: 'CNN_RockPaperScissor',
