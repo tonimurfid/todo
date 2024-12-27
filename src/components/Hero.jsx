@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 export const Hero = () => {
   return (
-    <section id="about" className="h-screen flex flex-col justify-center items-center text-center p-4">
+    <section id="about" className="h-screen flex flex-col justify-center items-center text-center">
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-pink-500">
         Fatoni Murfid Syaafii
       </h1>

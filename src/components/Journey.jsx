@@ -59,7 +59,7 @@ export const Journey = () => {
   ];
 
   return (
-    <section id="journey" className="py-8 sm:py-16 bg-gray-900">
+    <section id="journey" className="min-h-screen py-16 bg-gray-900">
       <h2 className="text-2xl sm:text-4xl text-center font-bold text-pink-500 mb-4 sm:mb-8">Journey</h2>
       <div className="max-w-screen-sm sm:max-w-4xl mx-auto">
         <div className="border-l-2 border-gray-700">

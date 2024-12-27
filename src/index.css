@@ -35,7 +35,29 @@
 
 @media screen and (max-width: 768px) {
   body {
-    zoom: 0.5; /* Skala halaman menjadi 90% */
+    margin: 0; /* Pastikan tidak ada margin global */
+    padding: 0; /* Hilangkan padding default jika ada */
+  }
+
+  .container, .content, .wrapper {
+    padding: 0 16px; /* Tambahkan padding di sisi kiri dan kanan */
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar elemen */
+  }
+
+  img, iframe {
+    max-width: 100%; /* Pastikan gambar atau elemen media tidak melampaui lebar layar */
+    height: auto;
+  }
+
+  section {
+    margin: 0 auto; /* Tengah-kan elemen */
+    padding: 8px 16px; /* Sesuaikan padding untuk konten */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    zoom: 0.8;
   }
 }
 
