@@ -18,6 +18,9 @@
       width: 26ch; /* Panjang teks "from toni import portfolio" */
     }
     60% {
+      width: 26ch; /* Panjang teks "from toni import portfolio" */
+    }
+    70% {
       width: 26ch; /* Tetap pada panjang maksimal untuk sementara */
     }
     100% {
