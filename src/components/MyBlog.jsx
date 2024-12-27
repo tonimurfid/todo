@@ -6,7 +6,7 @@ export const MyBlog = () => {
     {
       id: 1,
       images: [
-        '../../public/assets/tes.png',
+        'public/assets/tes.png',
         'https://loremflickr.com/200/200?random=2',
         'https://loremflickr.com/200/200?random=3',
       ],
