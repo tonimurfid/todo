@@ -5,7 +5,7 @@ export const MyBlog = () => {
   const [stories, setStories] = useState([
     {
       id: 1,
-      image: 'src/assets/tes.png', // Gambar random
+      image: '../src/assets/tes.png', // Gambar random
       title: 'My First AI Project',
       date: 'December 15, 2024',
       description: 'This is my journey building my first AI model to classify images.',
