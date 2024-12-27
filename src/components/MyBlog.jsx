@@ -6,7 +6,7 @@ export const MyBlog = () => {
     {
       id: 1,
       images: [
-        'https://loremflickr.com/200/200?random=1',
+        '../../public/assets/tes.png',
         'https://loremflickr.com/200/200?random=2',
         'https://loremflickr.com/200/200?random=3',
       ],
@@ -86,13 +86,6 @@ export const MyBlog = () => {
             </div>
           ))}
         </div>
-        {/* Tombol untuk menambah cerita */}
-        <button
-          onClick={addStory}
-          className="mt-6 px-6 py-3 bg-pink-500 text-white font-bold rounded-lg shadow-md hover:bg-pink-600 focus:outline-none"
-        >
-          Add Your Story
-        </button>
       </div>
     </section>
   );
