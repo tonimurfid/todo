@@ -39,7 +39,7 @@ export const MyBlog = () => {
   ]);
 
   return (
-    <section id="myblog" className="min-h-screen py-16 bg-gray-900">
+    <section id="myblog" className="min-h-screen py-24 bg-gray-900">
       <h2 className="text-2xl sm:text-4xl text-center font-bold text-dracula-function mb-4 sm:mb-8">
         My Story
       </h2>

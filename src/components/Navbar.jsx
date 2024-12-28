@@ -45,7 +45,7 @@ export const Navbar = () => {
             isOpen ? 'block' : 'hidden'
           } md:flex md:space-x-6 md:static absolute top-16 left-0 w-full md:w-auto bg-dracula-background md:bg-transparent p-4 md:p-0`}
         >
-          {['about', 'projects', 'journey', 'education', 'my story'].map((section) => (
+          {['about', 'projects', 'journey', 'education', 'myblog'].map((section) => (
             <li key={section}>
               <Link
                 to={section}
