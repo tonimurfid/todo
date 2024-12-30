@@ -33,7 +33,7 @@ export const Hero = () => {
         download="CV TONI.pdf"
         className="mt-8 px-6 py-3 bg-pink-500 text-white font-bold rounded shadow-lg hover:bg-pink-400 transition text-sm sm:text-base"
       >
-        Download CV
+        See My Resume :D
       </a>
     </section>
   );

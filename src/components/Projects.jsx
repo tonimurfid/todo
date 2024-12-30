@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaPython, FaJava, FaNodeJs } from 'react-icons/fa';
+import { SiPytorch, SiFastapi, SiHuggingface, SiSelenium, SiScikitlearn, SiMongodb, SiOpenai, SiPython } from 'react-icons/si';
 
 const projects = [
   {
@@ -7,6 +9,7 @@ const projects = [
     description: 'Worked on Automatic Speech Recognition using pre-trained models whisper-ai and used the transcribed text to be translated into Indonesia using DeepL.',
     month: 'June 2024',
     link: 'https://github.com/tonimurfid/ASR_Arten',
+    techStack: ['python', 'pytorch', 'fastapi', 'openai'],
   },
   {
     title: 'Career Path AI',
@@ -14,6 +17,7 @@ const projects = [
     description: 'Developed an AI system to suggest a job and could give score based on the resume.',
     month: 'October 2024',
     link: 'https://github.com/tonimurfid/Laplace_CareerPath',
+    techStack: ['python', 'fastapi', 'huggingface', 'selenium', 'mongo', 'sklearn'],
   },
   {
     title: 'Sentiment Analysis Tweet Election 2024',
@@ -21,20 +25,7 @@ const projects = [
     description: 'Developed a machine learning model that can predict the sentiment of tweets (positive or negative) regarding the 2024 General Election in Indonesia.',
     month: 'February 2024',
     link: 'https://github.com/ghazafm/twitter-sentiment-analysis',
-  },
-  {
-    title: 'Google Stock Prediction',
-    role: 'Data Scientist',
-    description: 'Developed a Recurrent Neural Network to predict Google stock prices.',
-    month: 'August 2024',
-    link: 'https://github.com/tonimurfid/Google_Stock_Prediction',
-  },
-  {
-    title: 'CNN_RockPaperScissor',
-    role: 'AI Developer',
-    description: 'Implemented a Convolutional Neural Network to play Rock-Paper-Scissors.',
-    month: 'May 2024',
-    link: 'https://github.com/tonimurfid/CNN_RockPaperScissor',
+    techStack: ['python', 'sklearn'],
   },
   {
     title: 'DungeonMon',
@@ -42,13 +33,29 @@ const projects = [
     description: 'Created a Java-based dungeon game with monster battles.',
     month: 'April 2024',
     link: 'https://github.com/tonimurfid/DungeonMon',
+    techStack: ['javaswing'],
   },
 ];
 
+
 export const Projects = () => {
+  const iconMap = {
+    pytorch: <SiPytorch />,
+    fastapi: <SiFastapi />,
+    openai: <SiOpenai />,
+    huggingface: <SiHuggingface />,
+    selenium: <SiSelenium />,
+    mongo: <SiMongodb />,
+    sklearn: <SiScikitlearn />,
+    javaswing: <FaJava />,
+    python: <SiPython />,
+  };
+
   return (
     <section id="projects" className="min-h-screen py-24 bg-dracula-background">
-      <h2 className="text-2xl sm:text-4xl text-center font-bold text-dracula-function mb-4 sm:mb-8">Projects</h2>
+      <h2 className="text-2xl sm:text-4xl text-center font-bold text-dracula-function mb-4 sm:mb-8">
+        Projects
+      </h2>
       <div className="relative max-w-screen-sm sm:max-w-4xl mx-auto">
         <div className="border-l-2 border-dracula-highlight relative">
           {projects.map((project, index) => (
@@ -58,6 +65,21 @@ export const Projects = () => {
               <p className="text-sm sm:text-base text-dracula-comment">{project.role}</p>
               <p className="text-sm sm:text-base text-dracula-string">{project.description}</p>
               <p className="text-xs sm:text-sm text-dracula-number">{project.month}</p>
+              
+              {/* Tech Stack */}
+              <div className="flex gap-2 mt-4">
+                {project.techStack.map((tech, i) => (
+                  <span
+                    key={i}
+                    className="text-dracula-function text-dracula-text"
+                    title={tech}
+                  >
+                    {iconMap[tech] || <span>{tech}</span>} {/* Render ikon */}
+                  </span>
+                ))}
+              </div>
+
+              {/* View Project */}
               <a
                 href={project.link}
                 target="_blank"
@@ -71,6 +93,5 @@ export const Projects = () => {
         </div>
       </div>
     </section>
-
   );
 };
