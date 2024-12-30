@@ -9,7 +9,7 @@ export const Journey = () => {
       description: 'Assist the department head in managing the data science team, delegating tasks, and guiding members to develop technical and non-technical skills.',
     },
     {
-      title: 'AI Researcher',
+      title: 'AI Researc Member',
       organization: 'Intelligent Systems Lab, FILKOM',
       duration: 'Sep 2024 - Present',
       description: 'Conducted research on synthetic medical data generation using generative AI techniques to improve data quality and availability in the medical field.',
@@ -38,12 +38,12 @@ export const Journey = () => {
       duration: 'Jan 2024',
       description: 'Engaged as a keynote speaker for campus orientation, highlighting engineering and technology programs to prospective students.',
     },
-    {
-      title: 'Logistic Division and Speaker',
-      organization: 'FORMADIMA',
-      duration: 'Dec 2023 - Jan 2024',
-      description: 'Spearheaded logistics coordination and served as a keynote speaker for campus orientation events, engaging with senior high school students.',
-    },
+    // {
+    //   title: 'Logistic Division and Speaker',
+    //   organization: 'FORMADIMA',
+    //   duration: 'Dec 2023 - Jan 2024',
+    //   description: 'Spearheaded logistics coordination and served as a keynote speaker for campus orientation events, engaging with senior high school students.',
+    // },
     {
       title: 'Chief Organizer',
       organization: 'Photobooth Event, PCC',
