@@ -1,8 +1,16 @@
 import React from 'react';
 import { FaPython, FaJava, FaNodeJs } from 'react-icons/fa';
-import { SiPytorch, SiFastapi, SiHuggingface, SiSelenium, SiScikitlearn, SiMongodb, SiOpenai, SiPython } from 'react-icons/si';
+import { SiPytorch, SiFastapi, SiHuggingface, SiSelenium, SiScikitlearn, SiMongodb, SiOpenai, SiPython, SiReact, SiNgrok, SiTailwindcss } from 'react-icons/si';
 
 const projects = [
+  {
+    title: 'Krowten AI',
+    role: 'Machine Learning Engineer and Web Developer',
+    description: 'Worked on a project to develop a chatbot that can answer questions related to the network and security field, especially in the context of educational materials and concepts covered in networking and security courses at Filkom.',
+    month: 'January 2024',
+    link: 'krowten.xyz',
+    techStack: ['python', 'fastapi', 'ngrok', 'openai', 'react', 'tailwindcss'],
+  },
   {
     title: 'ASR_Arten',
     role: 'Machine Learning Engineer',
@@ -49,6 +57,9 @@ export const Projects = () => {
     sklearn: <SiScikitlearn />,
     javaswing: <FaJava />,
     python: <SiPython />,
+    react: <SiReact />,
+    ngrok: <SiNgrok />,
+    tailwindcss: <SiTailwindcss />,
   };
 
   return (

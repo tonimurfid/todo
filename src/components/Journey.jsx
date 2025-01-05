@@ -9,7 +9,7 @@ export const Journey = () => {
       description: 'Assist the department head in managing the data science team, delegating tasks, and guiding members to develop technical and non-technical skills.',
     },
     {
-      title: 'AI Researc Member',
+      title: 'AI Research Member',
       organization: 'Intelligent Systems Lab, FILKOM',
       duration: 'Sep 2024 - Present',
       description: 'Conducted research on synthetic medical data generation using generative AI techniques to improve data quality and availability in the medical field.',
