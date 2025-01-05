@@ -7,8 +7,8 @@ const projects = [
     title: 'Krowten AI',
     role: 'Machine Learning Engineer and Web Developer',
     description: 'Worked on a project to develop a chatbot that can answer questions related to the network and security field, especially in the context of educational materials and concepts covered in networking and security courses at Filkom.',
-    month: 'January 2024',
-    link: 'krowten.xyz',
+    month: 'January 2025',
+    link: 'https://krowten.xyz',
     techStack: ['python', 'fastapi', 'ngrok', 'openai', 'react', 'tailwindcss'],
   },
   {

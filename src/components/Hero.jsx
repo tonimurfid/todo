@@ -9,7 +9,7 @@ export const Hero = () => {
         Fatoni Murfid Syaafii
       </h1>
       <p className="mt-4 text-base sm:text-lg md:text-xl">
-        "Debugging is like being the detective in a crime movie where you are also the murderer."
+        "The code is always right, until it's wrong. Debugging is the moment you prove it"
       </p>
       <p className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-lg">
         I am a computer science student with a strong interest in Artificial Intelligence, especially in Computer Vision, NLP, and their applications.
