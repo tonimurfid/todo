@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '/assets/DUMMY.pdf';
+import CV from '/assets/FatoniMurfidSyaafii_CV.pdf';
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 export const Hero = () => {
