@@ -6,6 +6,22 @@ export const MyBlog = () => {
     {
       id: 1,
       images: [
+        '/assets/malay1.png',
+        '/assets/malay2.png',
+      ],
+      title: '🌏 International Collaboration: FILKOM UB in Cyber Threat Detection System Development',
+      date: 'January 21, 2025',
+      description: [
+        "I had the incredible opportunity to represent Brawijaya University in an international collaboration with Universiti Sains Malaysia (USM), Penang, Malaysia to develop a cyber threat detection system. This experience was part of FILKOM UB's initiative to strengthen international research partnerships in cybersecurity.",
+        "During this collaboration, our team worked on developing advanced machine learning models for network intrusion detection. We focused on creating solutions that can identify and mitigate various types of cyber threats in real-time. The knowledge exchange with UTM researchers provided valuable insights into different approaches to cybersecurity challenges.",
+        "One of the highlights was presenting our research progress to faculty members from both universities. The feedback we received helped refine our models and implementation strategies. This experience not only enhanced my technical skills in cybersecurity but also improved my ability to collaborate in an international, multicultural team setting.",
+        "This collaboration has opened doors for future joint research projects between FILKOM UB and UTM. I'm grateful for this opportunity to contribute to meaningful cybersecurity research while building international academic connections.",
+      ],
+      link: 'https://filkom.ub.ac.id/2025/01/21/kolaborasi-internasional-filkom-ub-pada-pengembangan-sistem-deteksi-ancaman-siber/'
+    },
+    {
+      id: 2,
+      images: [
         '/assets/gemastik1.jpeg',
         '/assets/gemastik2.jpeg',
         '/assets/gemastik3.jpeg',
@@ -15,26 +31,12 @@ export const MyBlog = () => {
       title: '🌟 GEMASTIK XVII 2024 Data Mining Finals 🌟',
       date: 'September 30, 2024',
       description: [
-        "As a freshman from the class of '23 who only started diving into data science last February, I’m incredibly grateful for the opportunity to compete in GEMASTIK XVII 2024, one of the biggest ICT competitions in Indonesia. This was only my second competition in college, and it felt amazing to learn and compete alongside the best talents from across the country! 🔥",
+        "As a freshman from the class of '23 who only started diving into data science last February, I'm incredibly grateful for the opportunity to compete in GEMASTIK XVII 2024, one of the biggest ICT competitions in Indonesia. This was only my second competition in college, and it felt amazing to learn and compete alongside the best talents from across the country! 🔥",
         "In our team, I served as the ML engineer, handling the experimentation and technical aspects of the machine learning models. The biggest challenge was likely the preparation, especially for the presentation. However, diving deep into the experiments and model development on-site during the case study was incredibly motivating. Being surrounded by experienced individuals from various campuses made it an even more valuable learning experience.",
-        "Even though we didn’t bring the trophy home, I gained many valuable lessons from this competition. One of the most important is realizing that my true passion lies in ML/AI engineering. I’m eager to keep improving and competing in the future. On top of that, I’m currently working on several projects that will hopefully launch soon, so stay tuned for updates! 😉",
+        "Even though we didn't bring the trophy home, I gained many valuable lessons from this competition. One of the most important is realizing that my true passion lies in ML/AI engineering. I'm eager to keep improving and competing in the future. On top of that, I'm currently working on several projects that will hopefully launch soon, so stay tuned for updates! 😉",
         "Huge thanks to my teammates, Ahmad Nafi Mubarok and M. Raka Fadillah, as well as our amazing supervisor Rizal Setya Perdana, and mentor Erland Hilman, who dedicated their time and energy to guide us in preparing for the GEMASTIK data mining finals. See you in the next competition! 💪",
       ],
       link: 'https://www.linkedin.com/posts/fatoni-murfid-syaafii_gemastikxvii-datamining-machinelearning-activity-7247554929253367808-eyb9?utm_source=combined_share_message&utm_medium=member_desktop_web'
-    },
-    {
-      id: 2,
-      images: [
-        'https://loremflickr.com/200/200?random=4',
-        'https://loremflickr.com/200/200?random=5',
-      ],
-      title: 'Dummy',
-      date: 'November 20, 2024',
-      description: [
-        "Sharing my experiences contributing to open source projects.",
-        "Stay tuned for more updates and stories about my journey in tech.",
-      ],
-      link: '',
     },
   ]);
 
