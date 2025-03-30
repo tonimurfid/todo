@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '/assets/FatoniMurfidSyaafii_CV.pdf';
+import CV from '/assets/CV_Fatoni Murfid Syaafii.pdf';
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 export const Hero = () => {
@@ -30,7 +30,7 @@ export const Hero = () => {
       </div>
       <a
         href={CV}
-        download="CV TONI.pdf"
+        download="CV_Fatoni Murfid Syaafii.pdf"
         className="mt-8 px-6 py-3 bg-pink-500 text-white font-bold rounded shadow-lg hover:bg-pink-400 transition text-sm sm:text-base"
       >
         See My Resume :D
