@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '/assets/CV_Fatoni Murfid Syaafii.pdf';
+import CV from '/assets/CV_Fatoni Murfid Syaafii_AIMLE.pdf';
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 export const Hero = () => {
