@@ -8,12 +8,16 @@ export const Hero = () => {
         <div className="flex flex-col md:flex-row items-center gap-12 max-w-5xl mx-auto">
           {/* Photo Section */}
           <div className="w-full md:w-5/12 flex justify-center">
-            <div className="relative w-full h-full rounded-xl overflow-hidden border-4 border-pink-500/30">
-              {/* Pink border around image */}
+            <div className="relative w-32 h-32 sm:w-52 sm:h-52 md:w-full md:h-full rounded-xl overflow-hidden border-4 border-pink-500/30">
               <div className="absolute inset-0 border-2 border-pink-500"></div>
-              <img src="/assets/toni3.jpeg" alt="Fatoni Murfid Syaafii" className="w-full h-full object-cover" />
+              <img
+                src="/assets/toni3.jpeg"
+                alt="Fatoni Murfid Syaafii"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
+
 
           {/* Content Section */}
           <div className="w-full md:w-7/12 text-center md:text-left">
